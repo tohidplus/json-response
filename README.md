@@ -7,7 +7,7 @@
 
 # Laravel API JSON Response
 
-This package is used to have a cohesive and well-integrated API response to both Laravel and Lumen frameworks.
+This package is used to have a cohesive and well-integrated API response in both Laravel and Lumen frameworks.
 
 ## Requirements
 
