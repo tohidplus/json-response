@@ -1,0 +1,48 @@
+{
+    "name": "tohidplus/json-response",
+    "description": "This package is used to have a cohesive and well-integrated API response to both Laravel and Lumen frameworks.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel-response",
+        "laravel-api-response",
+        "laravel-json-response"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tohidplus\\JsonResponse\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tohidplus\\JsonResponse\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tohid Dadashnejad",
+            "email": "tohid.dadashnejad@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^7.4|8.0.*",
+        "laravel/framework": "5.*|6.*|7.*|8.*|9.*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3.3",
+        "orchestra/testbench": "^6.0",
+        "mockery/mockery": "^1.0"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tohidplus\\JsonResponse\\JsonResponseServiceProvider"
+            ]
+        }
+    }
+}
