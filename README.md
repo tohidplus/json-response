@@ -1,3 +1,10 @@
+[![GitHub issues](https://img.shields.io/github/issues/tohidplus/json-response.svg)](https://github.com/tohidplus/json-response/issues)
+[![GitHub stars](https://img.shields.io/github/stars/tohidplus/json-response.svg)](https://github.com/tohidplus/json-response/stargazers)
+[![Total Downloads](https://img.shields.io/packagist/dt/tohidplus/json-response.svg)](https://packagist.org/packages/tohidplus/json-response)
+[![Code Quality](https://img.shields.io/scrutinizer/quality/g/tohidplus/json-response/main)](https://scrutinizer-ci.com/g/tohidplus/json-response)
+[![GitHub license](https://img.shields.io/github/license/tohidplus/json-response.svg)](https://github.com/tohidplus/json-response/blob/main/LICENSE.md)
+[![GitHub license](https://img.shields.io/travis/tohidplus/json-response)](https://travis-ci.com/github/tohidplus/json-response)
+
 # Laravel API JSON Response
 
 This package is used to have a cohesive and well-integrated API response to both Laravel and Lumen frameworks.
