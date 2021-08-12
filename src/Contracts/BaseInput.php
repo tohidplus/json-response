@@ -14,7 +14,7 @@ abstract class BaseInput implements ArrayJsonSerializable
 
     /**
      * BaseInput constructor.
-     * @param null $input
+     * @param mixed $input
      */
     public function __construct($input = null)
     {
