@@ -1,6 +1,6 @@
 {
     "name": "tohidplus/json-response",
-    "description": "This package is used to have a cohesive and well-integrated API response to both Laravel and Lumen frameworks.",
+    "description": "This package is used to have a cohesive and well-integrated API response in both Laravel and Lumen frameworks.",
     "type": "library",
     "license": "MIT",
     "keywords": [
